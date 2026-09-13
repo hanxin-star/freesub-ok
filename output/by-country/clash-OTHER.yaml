@@ -5,17 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: shop.neexbyte.ir
-  port: 8443
+  server: 104.18.8.83
+  port: 443
   udp: true
-  type: vless
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
-  tls: true
-  servername: shop.neexbyte.ir
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
