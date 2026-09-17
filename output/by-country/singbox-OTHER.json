@@ -6,42 +6,35 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.91.129",
+      "server": "104.21.70.21",
       "server_port": 443,
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
+      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
       "tls": {
         "enabled": true,
-        "server_name": "edfc774f.69lover.site",
+        "server_name": "playlux.homes",
         "insecure": false,
         "alpn": [
           "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/63e9687fa53e441c/stream",
+        "path": "/raccoonwsvless",
         "headers": {
-          "Host": "edfc774f.69lover.site"
+          "Host": "playlux.homes"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.25.30.10",
+      "server": "104.21.70.21",
       "server_port": 443,
-      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "de14.69lover.my",
+        "server_name": "jp3.yohototo.top",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -49,9 +42,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v2/6c316c769ad6853c/stream",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "de14.69lover.my"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
