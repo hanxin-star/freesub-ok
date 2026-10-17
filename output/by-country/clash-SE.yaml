@@ -28,7 +28,7 @@ proxies:
   tls: true
   servername: edge-lab-b.10media.top
   skip-cert-verify: false
-  client-fingerprint: ios
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: swedenfeed
